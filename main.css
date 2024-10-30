@@ -1,0 +1,22 @@
+.carousel-item {
+    height: 90vh; /* A altura da div do carousel */
+}
+
+.carousel-item img {
+
+    height: 100%; /* Faz com que a imagem tenha 100% da altura do container */
+    object-fit: cover;/* Redimensiona a imagem para caber no container, mantendo as proporções */
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.5s ease;
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 3;
+}
+
+.nav-link:hover {
+    color: rgb(50, 117, 179);
+    text-decoration: underline;
+}
