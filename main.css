@@ -1,11 +1,11 @@
 .carousel-item {
-    height: 90vh; /* A altura da div do carousel */
+    height: 90vh; 
 }
 
 .carousel-item img {
 
-    height: 100%; /* Faz com que a imagem tenha 100% da altura do container */
-    object-fit: cover;/* Redimensiona a imagem para caber no container, mantendo as proporções */
+    height: 100%; 
+    object-fit: cover;
 }
 
 .nav-link {
